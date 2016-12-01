@@ -1,0 +1,4 @@
+SSBACK RCDATA "..\\Resources\\Windows\\SplashScreen\\SplashScreenEmpty.png"
+LOGO RCDATA "..\\Resources\\Windows\\SplashScreen\\Logo.png"
+ENGLISH_LP RCDATA "..\\Resources\\Default Languages\\English.txt"
+RUSSIAN_LP RCDATA "..\\Resources\\Default Languages\\Russian.txt"
