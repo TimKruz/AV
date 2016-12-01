@@ -1,0 +1,41 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  ClientHeight = 200
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo: TMemo
+    Left = 0
+    Top = 0
+    Width = 400
+    Height = 178
+    Align = alClient
+    BorderStyle = bsNone
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object LearningThresholdTrackBar: TTrackBar
+    Left = 0
+    Top = 178
+    Width = 400
+    Height = 22
+    Cursor = crHSplit
+    Align = alBottom
+    Max = 100
+    Position = 65
+    TabOrder = 1
+    TickMarks = tmBoth
+    TickStyle = tsNone
+  end
+end
